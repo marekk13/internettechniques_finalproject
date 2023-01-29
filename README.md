@@ -1,11 +1,12 @@
 # Internet Techniques Final Project
-> A website presenting an imaginary travel agency's offer. Developed in cooperation with @... using HTML, CSS, and JavaScript.
+> A website presenting an imaginary travel agency's offer. Developed in cooperation with [@Kamil Bednarz](https://github.com/kambedn) using HTML, CSS, and JavaScript.
+> [Link to the website](https://marekk13.github.io/internettechniques_finalproject/)
 
 
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
-* [Functional Requirements](#Functional Requirements)
+* [Functional Requirements](#functional-requirements)
 
 
 ## General Information
