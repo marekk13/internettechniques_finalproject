@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Nauru</title>
+	<meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="topstyles.css">
+	<link rel="stylesheet" type="text/css" href="wycieczki.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&family=Poppins:wght@100;200;300;400;700&display=swap"
+		rel="stylesheet">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&family=Poppins:ital,wght@1,200&display=swap');
+	</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	<div id="top">
+		<div id="logo"></div>
+		<a id="fbp" href="https://www.facebook.com/"><img src="photos/fb.png" alt="fb"></a>
+		<a id="instp" href="https://www.instagram.com/"><img src="photos/inst.png" alt="instagram"></a>
+		<div id="menup"></div>
+		<div id="cont">
+			<p>+48 678 515 051 </p>
+			<p>kontakt@thejourneist.com</p>
+		</div>
+		<div id="slide">
+			<a href='index.html'>Strona główna</a>
+			<a href='wycieczki.html'>Wycieczki</a>
+			<a href='onas.html'>O nas</a>
+			<a href='index.html#kont'>Kontakt</a>
+		</div>
+	</div>
+	<div id="wycieczka">
+		<div class="headsub">
+			<h1>Wypoczynek w Gambii</h1>
+			<hr style="height: 2px; background-color: black">
+			<h2>Hotel Holiday Beach Club<br>27.01-03.02.2023</h2>
+		</div>
+		<div class="bigGallery">
+			<img id="expandedImg" src="photos/gambia1.png" alt="Gambia">
+		</div>
+		<div class="photos">
+			<div class="columnp">
+				<img src="photos/gambia1.png" alt="Gambia" onclick="toursGallery(this)">
+			</div>
+			<div class="columnp">
+				<img src="photos/gambia2.png" alt="Gambia" onclick="toursGallery(this)">
+			</div>
+			<div class="columnp">
+				<img src="photos/gambia3.png" alt="Gambia" onclick="toursGallery(this)">
+			</div>
+			<div class="columnp">
+				<img src="photos/gambia4.png" alt="Gambia" onclick="toursGallery(this)">
+			</div>
+		</div>
+		<div class="midsub">
+			<h2>Cena: 4079 PLN</h2>
+		</div>
+		<div class="tourmenu">
+			<div class="tourmenup">
+				<div class="open">
+					<img src="photos/open.png" alt="closed">
+					<h3>Hotel</h3>
+				</div>
+				<div class="cl">
+					<p>
+					<h3>Położenie</h3>
+					Doskonale położony, w samym centrum najbardziej rozwiniętego kurortu jakim jest Kololi. Hotel
+					otoczony jest zadbanym ogrodem, który sprzyja relaksowi, a jednocześnie mamy dosłownie kilka kroków
+					do centrum Kololi, gdzie znajdziemy liczne sklepiki, bazar z pamiątkami, bary, kluby, czy dyskoteki.
+					W okolicy znajdują się najlepsze w okolicy kluby z muzyką na żywo, gdzie codziennie odbywają się
+					koncerty zespołów z Gambii, Senegalu, czy Ghany. W pobliżu znajduje się Park Narodowy Bijilo, w
+					którym można oglądać małpy i ciekawe ptaki.
+					Polecamy wizytę w pobliskim hotelu Senegambia, gdzie codziennie o 11:30 odbywa się karmienie sępów.
+					Odległość od lotniska ok. 20 km, transfer trwa ok. 30 min.<br>
+					<h3>Plaża</h3>
+					Hotel usytuowany jest bezpośrednio przy piaszczystej plaży. Serwis plażowy - bezpłatny.<br>
+					<h3>Do dyspozycji gości</h3>
+					Hotel składa się z kilku parterowych budynków oraz z dwóch piętrowych budynków, otoczonych zadbanym,
+					tropikalnym ogrodem. Recepcja czynna 24 - godz., restauracja, bar przy basenie, bar z przekąskami na
+					plaży, sejf w recepcji (płatny 11 euro /tydzień), ogród, taras słoneczny, bezpłatne leżaki i
+					parasole przy basenie.<br>
+					</p>
+				</div>
+			</div>
+			<div class="tourmenup">
+				<div class="open">
+					<img src="photos/open.png" alt="closed">
+					<h3>Wycieczki fakultatywne</h3>
+				</div>
+				<div class="cl">
+					<ul>
+						<li>Kajakiem przez namorzyny</li>
+						<li>Safari w Senegalu</li>
+						<li>Święty las Makasutu</li>
+					</ul>
+				</div>
+			</div>
+			<div class="tourmenup">
+				<div class="open">
+					<img src="photos/open.png" alt="closed">
+					<h3>Cena nie zawiera</h3>
+				</div>
+				<div class="cl">
+					<ul>
+						<li>Wycieczek fakultatywnych</li>
+						<li>Posiłków innych niż wymienione w opisie wyżywienia przy każdym z hoteli</li>
+						<li>Napojów do posiłków jeśli w opisie hoteli nie podano inaczej</li>
+						<li>Wydatków osobistych</li>
+						<li>Opłaty za ochronę lotniska - 40 euro za osobę</li>
+					</ul>
+				</div>
+			</div>
+			<div class="tourmenup">
+				<div class="open">
+					<img src="photos/open.png" alt="closed">
+					<h3>Dodatkowe informacje oraz płatność</h3>
+				</div>
+				<div class="cl">
+					<h3 style="font-weight: 600; margin: 0">Płatność</h3>
+					<p>W przypadku kiedy wyprawa odbywa się za ponad 180 dni wymagamy wpłaty 25% zaliczki. W przypadku
+						gdy wyprawa odbywa się przed upływem 180 dni wymagamy 50%. Reszta płatna 21 dni przed
+						rozpoczęciem wyprawy. </p>
+				</div>
+			</div>
+		</div>
+		<div class="endsub">
+			<h1>Zapisz się na najlepsze wakacje Twojego życia już dzisiaj!</h1>
+			<h3 style="padding-bottom: 15px">Zapisy telefonicznie pod numerem: +48 678 515 051</h3>
+		</div>
+	</div>
+	<button onclick="topFunction()" id="myBtn" title="Go to top"></button>
+	<footer>
+		<div id="ff">
+			<div id="flogo"></div>
+			<div id="regulaminy">
+				<a href="regulamin.html">Regulamin</a>
+				<a href="politykaprywatnosci.html">Polityka prywatności</a>
+			</div>
+			<div id="dane">
+				<p>Biuro Podróży The Journeist Sp. J</p>
+				<p>Aleje Zygmuntowskie 5</br>20-011 Lublin</p>
+				<p>+48 678 515 051 </br>kontakt@thejourneist.com</p>
+			</div>
+		</div>
+		<p id="copy"> &copy Biuro Podróży The Journeist 2023</p>
+	</footer>
+	<script src="wycieczki.js"></script>
+	<script src="menu.js"></script>
+</body>
+
+</html>

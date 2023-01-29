@@ -1,0 +1,141 @@
+#op-h {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#opinie {
+    margin-top: 60px;
+}
+
+#op-main-div {
+    display: flex;
+    justify-content: center;
+    min-height: 350px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#op-main-scroll-div {
+    width: 90%;
+    height: 320px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+#op-button {
+    position: relative;
+    top: 40%
+}
+
+#op-cover {
+    position: relative;
+    width: 80%;
+    height: 90%;
+}
+
+#op-cover::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    z-index: 99;
+    height: 100%;
+    width: 150px;
+
+}
+
+#op-cover::after {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    z-index: 99;
+    height: 100%;
+    width: 150px;
+
+}
+
+#op-scroll-images {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    overflow: auto;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+#op-rect {
+    text-align: center;
+    min-width: 300px;
+    width: 300px;
+    height: 400px;
+    min-height: 300px;
+    margin: 1px 10px;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: #73c7f8;
+    color: black;
+
+}
+
+#op-rect img {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    height: 100px;
+    width: 100px;
+}
+
+#op-rect h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 2px black;
+    line-height: 22px;
+}
+
+#op-rect p {
+    font-weight: 300;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-shadow: 0 0 1px black;
+}
+
+#op-scroll-images::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+
+#op-icon {
+    color: black;
+    font-size: 50px;
+    outline: none;
+    border: none;
+    padding: opx 20px;
+    cursor: pointer;
+    background-color: white;
+}
+
+#op-icon:hover {
+    color: navy;
+}
+
+@media only screen and (max-width: 500px) {
+    #op-rect {
+        min-width: 250px;
+        height: 350px;
+    }
+
+    #op-rect h1 {
+        font-size: 20px;
+    }
+
+    #op-rect p {
+        font-size: 14px;
+    }
+}

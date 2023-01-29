@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+#background {
+	width: 100%;
+}
+#content {
+    margin: auto;
+    /*border: 5px dotted red;*/
+    width: 70%;
+    padding-bottom: 60px;
+}
+
+#content h1 {
+    font-size: 400%;
+    text-align: left;
+    width: 42%;
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+
+#content li {
+    font-weight: bold;
+    padding-top: 20px;
+
+}
+
+#content li #bbold {
+    font-weight: bold;
+}
+
+#reglist {
+    list-style-type: decimal;
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+#content li #smalllist {
+    list-style-type: circle;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#content #nopadding {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-weight: normal;
+}
+
+#content li #pnopad {
+    margin-bottom: 0;
+}
+
+#content li #nopadtop {
+    margin-top: 5px;
+}
+
+
+

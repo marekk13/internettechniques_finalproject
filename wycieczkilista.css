@@ -1,0 +1,169 @@
+#atrip {
+    text-decoration: none;
+    color: black;
+}
+
+#timg {
+    width: 100%;
+}
+
+#trip {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    border-bottom: 2px solid #808080;
+}
+
+#icons {
+    padding-top: 5px;
+    display: grid;
+    grid-template-columns: 10fr 10fr 10fr;
+    grid-column-gap: 0px;
+}
+
+#texticon {
+    font-size: 15px;
+    max-width: 150px;
+}
+
+#details h1 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#details h2 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#details h3 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#details #button {
+    width: 40%;
+    background-color: #73c7f8;
+    height: 50px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+}
+
+#icon {
+    margin-left: 45%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    transform: scale(1.5);
+}
+
+#texticon p {
+    text-align: center;
+}
+
+
+#description h1 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+#description h2 {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+#description p {
+    margin-top: 0;
+    font-size: 15px;
+}
+
+
+
+@media only screen and (min-width: 900px) {
+    #details h1 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    #details h2 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    #details h3 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+
+    #trips {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    #atrip {
+        display: grid;
+        grid-template-columns: 10fr 10fr 6fr;
+        grid-column-gap: 20px;
+    }
+
+    #trip {
+        width: 1150px;
+    }
+
+    #description h1 {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 30px;
+    }
+
+    #description h2 {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    #description p {
+        margin-top: 2px;
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+
+    #details #icons {
+        margin-top: 20px;
+        grid-column-gap: 15px;
+    }
+
+    #icon {
+        margin-left: 40%;
+        margin-top: 10%;
+        transform: scale(2);
+        margin-bottom: 5%;
+    }
+
+    #texticon p {
+        font-size: 15px;
+    }
+
+    #details #button {
+        width: 300px;
+        line-height: 70px;
+        height: 70px;
+    }
+
+
+    #timg {
+        height: 300px;
+    }
+
+    #description {
+        padding-bottom: 0;
+    }
+
+
+
+}

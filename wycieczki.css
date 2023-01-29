@@ -1,0 +1,115 @@
+.photos {
+	margin: auto;
+	width: 80%;
+	text-align: center;
+	padding-left: 10%;
+	display: grid;
+	grid-template-columns: repeat(4, 20%);
+	grid-column-gap: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#wycieczka {
+	margin-bottom: -20px;
+}
+
+.columnp {
+	width: 100%;
+	max-width: 250px;
+	text-align: center;
+}
+
+.columnp img {
+	width: 100%;
+	min-height: 105px;
+	max-width: 250px;
+	max-height: 105px;
+	max-width: 250px;
+	opacity: 0.8;
+	border-radius: 5%;
+	box-shadow: 2px;
+}
+
+.columnp img:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+
+.bigGallery {
+	width: 70%;
+	margin: auto;
+	text-align: center;
+	max-width: 1080px;
+	margin-bottom: 30px;
+}
+
+.bigGallery img {
+	box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+	width: 100%;
+	max-height: 500px;
+	margin: auto;
+	text-align: center;
+}
+
+#expandedImg {
+	opacity: 1;
+}
+
+.headsub {
+	text-align: center;
+	padding: 0;
+	width: 50%;
+	margin: auto;
+}
+
+.midsub {
+	text-align: center;
+}
+
+.tourmenu {
+	width: 60%;
+	margin: auto 17%;
+}
+
+.tourmenup {
+	width: 100%;
+}
+
+.cl {
+	display: none;
+	padding: 10px 20px;
+}
+
+.tourmenup div {
+	width: 100%;
+	margin: 5px 5%;
+	border: solid 2px black;
+	padding: auto;
+	text-align: justify;
+}
+
+.open h3 {
+	display: inline-block;
+}
+
+.c1 h3 {
+	font-weight: 500;
+	margin: 0;
+}
+
+.headsub h1 {
+	font-size: 50px;
+	margin-bottom: 0;
+	padding-top: 50px;
+}
+
+.endsub {
+	margin: auto;
+	margin-top: 25px;
+	text-align: center;
+}
+
+.endsub h1 {
+	font-size: 30px;
+}

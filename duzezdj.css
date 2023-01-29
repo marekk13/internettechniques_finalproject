@@ -1,0 +1,178 @@
+#bigPhoto {
+    background-image: url("photos/nauru.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 650px;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+#zobacz {
+    width: 220px;
+    height: 50px;
+    background-color: #73c7f8;
+    line-height: 50px;
+    margin: auto;
+    font-size: 16px;
+}
+
+
+#napgal h1 {
+    font-size: 70px;
+    text-shadow: 0 0 3px black, 0 0 5px black;
+}
+
+#napgal h2 {
+    margin-top: 95px;
+    margin-bottom: 80px;
+    font-size: 50px;
+    text-shadow: 0 0 2px black, 0 0 2px black;
+}
+
+#gleft {
+    background-image: url("photos/left1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 80px;
+    width: 60px;
+    top: 45%;
+    position: absolute;
+    left: 5%;
+}
+
+
+
+#gright {
+    background-image: url("photos/right1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 80px;
+    width: 60px;
+    right: 5%;
+    top: 45%;
+    position: absolute;
+}
+
+#gright:hover,
+#gleft:hover {
+    cursor: pointer;
+}
+
+#napgal {
+    width: 60%;
+    position: absolute;
+    top: 5%;
+    right: 20%;
+    text-align: center;
+    color: aliceblue;
+}
+
+#zobacz:hover {
+    background-color: navy;
+    font-weight: 600;
+}
+
+@media only screen and (min-width: 1300px) {
+    #bigPhoto {
+        min-height: 600px;
+    }
+
+    #napgal h2 {
+        margin-top: 0;
+        font-size: 60px;
+    }
+
+    #napgal h1 {
+        font-size: 80px;
+        margin-bottom: 50px;
+        ;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    bigPhoto {
+        background-image: url("photos/nauru.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 300px;
+    }
+
+    #zobacz {
+        width: 140px;
+        height: 40px;
+        background-color: #73c7f8;
+        margin: auto;
+        text-align: center;
+        font-size: 15px;
+
+    }
+
+
+    #napgal h1 {
+        font-size: 50px;
+        text-shadow: 0 0 3px black, 0 0 5px black;
+    }
+
+    #napgal h2 {
+        margin-top: 40px;
+        margin-bottom: 70px;
+        font-size: 40px;
+        text-shadow: 0 0 2px black, 0 0 2px black;
+    }
+
+    #gleft {
+        background-image: url("photos/left1.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 40px;
+        width: 30px;
+        top: 45%;
+        position: absolute;
+        left: 3%;
+    }
+
+
+
+    #gright {
+        background-image: url("photos/right1.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 40px;
+        width: 30px;
+        right: 3%;
+        top: 45%;
+        position: absolute;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #bigPhoto {
+        background-image: url("photos/nauru.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 400px;
+    }
+
+    #zobacz {
+        width: 140px;
+        height: 40px;
+        background-color: #73c7f8;
+        margin: auto;
+        text-align: center;
+        font-size: 15px;
+        line-height: 35px;
+    }
+
+
+    #napgal h1 {
+        font-size: 30px;
+        text-shadow: 0 0 3px black, 0 0 5px black;
+    }
+
+    #napgal h2 {
+        font-size: 30px;
+        text-shadow: 0 0 2px black, 0 0 2px black;
+    }
+
+}

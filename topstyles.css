@@ -1,0 +1,463 @@
+html {
+	scroll-behavior: smooth;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+}
+
+#top {
+	width: 100%;
+	margin: auto;
+}
+
+#logo {
+	margin: 0 40px;
+	width: 200px;
+	height: 200px;
+	background-image: url("photos/logo.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#fbp {
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	top: 76px;
+	right: 180px;
+	text-align: center;
+	margin: 0;
+	display: block;
+	z-index: 99;
+}
+
+::placeholder {
+	font-size: 15px;
+}
+
+#fbp img {
+	width: 100%;
+	height: 100%;
+}
+
+#instp {
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	top: 76px;
+	right: 280px;
+	text-align: center;
+	margin: 0;
+	display: block;
+	z-index: 99;
+}
+
+#instp img {
+	width: 100%;
+	height: 100%;
+}
+
+#menup {
+	position: absolute;
+	top: 72px;
+	right: 20px;
+	width: 120px;
+	height: 80px;
+	background-image: url("photos/menu.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#cont {
+	width: 100%;
+	text-align: center;
+	margin: 30px auto 10px auto;
+	padding: 5px 25px;
+	font-size: 26px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+#cont p {
+	display: inline;
+	color: #808080;
+	padding-right: 40px;
+	padding-left: 30px;
+}
+
+#slide {
+	border-top: solid 2px black;
+	width: 100%;
+	margin: auto;
+	text-align: left;
+	display: none;
+	padding-left: 40%;
+}
+
+#slide a {
+	font-weight: 300;
+	margin: 40px 0;
+	display: block;
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+
+#slide a:hover {
+	font-weight: 700;
+	color: navy;
+}
+
+#menup:hover {
+	cursor: pointer;
+}
+
+footer {
+	padding-top: 20px;
+	width: 100%;
+	min-height: 270px;
+	background-color: black;
+	color: white;
+	display: inline-block;
+	word-break: break-all;
+}
+
+#ff {
+	display: grid;
+	grid-template-columns: repeat(3, 33%);
+	grid-column-gap: 10px;
+}
+
+#flogo {
+	text-align: center;
+	margin-left: 35%;
+	height: 200px;
+	width: 200px;
+	background-image: url("photos/logodark.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#regulaminy {
+	margin: 30px auto 40px auto;
+	text-align: center;
+}
+
+#regulaminy a {
+	margin-top: 30px;
+	display: block;
+	text-decoration: none;
+	color: #73c7f8;
+}
+
+#regulaminy a:hover {
+	color: white;
+	font-weight: 700;
+}
+
+#dane {
+	padding-top: 10px;
+}
+
+#copy {
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+#formularz {
+	width: 100%;
+	min-height: 270px;
+	background-color: #F2F3F5;
+	padding-bottom: 10px;
+	margin: auto;
+}
+
+#formularz h1 {
+	text-align: center;
+	margin-top: 20px;
+}
+
+form {
+	display: grid;
+	grid-template-columns: repeat(2, 40%);
+	grid-column-gap: 5%;
+}
+
+#form1 {
+	text-align: left;
+	margin: auto;
+	margin-top: 0;
+	padding-left: 35%;
+}
+
+label {
+	font-size: 24px;
+}
+
+#form1 input {
+	width: 100%;
+	min-height: 32px;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+#form2 textarea {
+	max-width: 100%;
+
+}
+#inp {
+	font-size: 19px;
+}
+#form3 {
+	display: inline;
+}
+
+textarea {
+	font-size: 20px;
+}
+
+#myBtn {
+	display: none;
+	/* Hidden by default */
+	position: fixed;
+	/* Fixed/sticky position */
+	bottom: 20px;
+	/* Place the button at the bottom of the page */
+	right: 30px;
+	/* Place the button 30px from the right */
+	z-index: 99;
+	/* Make sure it does not overlap */
+	border: none;
+	/* Remove borders */
+	outline: none;
+	/* Remove outline */
+	background-image: url("photos/uparrow.png");
+	/* Set a background color */
+	cursor: pointer;
+	/* Add a mouse pointer on hover */
+	border-radius: 10px;
+	/* Rounded corners */
+	opacity: 0.8;
+	border: solid 1px black;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 50px;
+	height: 50px;
+}
+
+#myBtn:hover {
+	opacity: 1.0;
+}
+
+@media only screen and (min-width: 1200px) {
+	#menup {
+		display: none;
+	}
+
+	#logo {
+		margin: 0 30px;
+		width: 130px;
+		height: 130px;
+	}
+
+	#fbp {
+		width: 30px;
+		height: 30px;
+		position: absolute;
+		top: 65%;
+		right: 60px;
+		display: block;
+	}
+
+	#instp {
+		width: 30px;
+		height: 30px;
+		position: absolute;
+		top: 65%;
+		right: 120px;
+		display: block;
+	}
+
+	#top {
+		position: relative;
+	}
+
+	#cont {
+		font-size: 16px;
+		padding: 0;
+		position: absolute;
+		top: 0;
+		right: 20px;
+		text-align: right;
+	}
+
+	#slide {
+		border-top: none;
+		display: inline-block;
+		padding-left: 35%;
+		position: absolute;
+		top: 61%;
+	}
+
+	#slide a {
+		margin: 5px 10px;
+		display: inline;
+		font-size: 26px;
+	}
+
+	#flogo {
+		margin-left: 50%;
+	}
+
+	#form1 {
+		padding-left: 50%;
+	}
+
+	#form1 input {
+		min-height: 40px;
+		margin-bottom: 20px;
+	}
+}
+
+@media only screen and (max-width: 720px) {
+	#flogo {
+		margin-left: 15px;
+		height: 120px;
+		width: 120px;
+	}
+	#inp {
+		font-size: 12px;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	#myBtn {
+		bottom: 10px;
+		right: 15px;
+		height: 20px;
+		width: 20px;
+	}
+
+	#flogo {
+		margin-left: 10px;
+		height: 80px;
+		width: 80px;
+	}
+
+	#fbp {
+		width: 30px;
+		height: 30px;
+		position: absolute;
+		top: 20px;
+		right: 70px;
+
+	}
+
+	#instp {
+		width: 30px;
+		height: 30px;
+		position: absolute;
+		top: 20px;
+		right: 110px;
+		text-align: center;
+		margin: 0;
+		display: block;
+		z-index: 99;
+	}
+
+	#logo {
+		margin: 0 10px;
+		width: 80px;
+		height: 80px;
+		background-image: url("photos/logo.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	#menup {
+		position: absolute;
+		top: 20px;
+		right: 20px;
+		width: 45px;
+		height: 30px;
+		background-image: url("photos/menu.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	#cont {
+		font-size: 16px;
+	}
+
+	footer {
+		font-size: 10px;
+
+	}
+	
+
+	#ff {
+		grid-column-gap: 0px;
+	}
+
+	#formularz {
+		min-height: 300px;
+	}
+
+	#formularz h1 {
+		font-size: 30px;
+	}
+
+	#formularz label {
+		font-size: 15px;
+	}
+
+	#form2 textarea {
+		height: 100px;
+	}
+
+	#form1 {
+		text-align: left;
+		margin: auto;
+		margin-top: 0;
+		padding-left: 15%;
+	}
+
+	label {
+		font-size: 44px;
+	}
+
+	#form1 input {
+		width: 100%;
+		min-height: 32px;
+		margin-bottom: 20px;
+		font-size: 14px;
+	}
+
+	#form1 ::placeholder,
+	#form2 ::placeholder {
+		font-size: 10px;
+	}
+
+	#form3 input {
+		font-size: 10px;
+	}
+
+	textarea {
+		font-size: 10px;
+	}
+
+	#inp {
+		font-size: 8px;
+	}
+
+
+}
